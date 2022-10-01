@@ -44,7 +44,7 @@ ul li.checked {
 
 /* Add a "checked" mark when clicked on */
 ul li.checked::before {
-  content: '';
+  content: "";
   position: absolute;
   border-color: #fff;
   border-style: solid;
@@ -71,7 +71,7 @@ ul li.checked::before {
 
 /* Style the header */
 .header {
-  background-color: #f44336;
+  background-color: #63ae35;
   padding: 30px 40px;
   color: white;
   text-align: center;
