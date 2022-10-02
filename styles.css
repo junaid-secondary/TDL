@@ -3,6 +3,10 @@
   box-sizing: border-box;
 }
 
+body{
+  background-color: #F5EFE6;
+}
+
 /* Remove margins and padding from the list */
 ul {
   margin: 0;
@@ -17,7 +21,6 @@ ul li {
   background: #eee;
   font-size: 18px;
   transition: 0.2s;
-
   /* make the list items unselectable */
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -71,7 +74,7 @@ ul li.checked::before {
 
 /* Style the header */
 .header {
-  background-color: #63ae35;
+  background-color: #7895B2;
   padding: 30px 40px;
   color: white;
   text-align: center;
@@ -112,3 +115,5 @@ input {
 .addBtn:hover {
   background-color: #bbb;
 }
+
+Footer
