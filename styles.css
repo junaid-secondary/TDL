@@ -14,7 +14,7 @@ ul li {
   cursor: pointer;
   position: relative;
   padding: 12px 8px 12px 40px;
-  background: #eee;
+  background: rgb(178, 220, 12);
   font-size: 18px;
   transition: 0.2s;
 
@@ -27,7 +27,7 @@ ul li {
 
 /* Set all odd list items to a different color (zebra-stripes) */
 ul li:nth-child(odd) {
-  background: #f9f9f9;
+  background: #ea06a6;
 }
 
 /* Darker background-color on hover */
