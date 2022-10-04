@@ -1,7 +1,36 @@
 /* Include the padding and border in an element's total width and height */
 * {
   box-sizing: border-box;
+
 }
+body{
+  background-color: #D2DAFF;
+}
+
+
+.title{
+  text-align: center;
+}
+
+
+#myDIV{
+width: 50%;
+margin: 0 auto;
+border-radius: 30px 30px 0px 0px
+
+
+ 
+  
+}
+#divunder{
+  padding-top: 10px;
+  padding: 50px;
+  margin: 0 auto;
+  width: 50%;
+  border-radius: 0px 0px 30px 30px;
+  background-color: #FFE3E1;
+}
+
 
 /* Remove margins and padding from the list */
 ul {
@@ -65,13 +94,13 @@ ul li.checked::before {
 }
 
 .close:hover {
-  background-color: #f44336;
+  background-color: #FF9494;
   color: white;
 }
 
 /* Style the header */
 .header {
-  background-color: #63ae35;
+  background-color:#FFE3E1;
   padding: 30px 40px;
   color: white;
   text-align: center;
@@ -85,11 +114,11 @@ ul li.checked::before {
 }
 
 /* Style the input */
-input {
-  margin: 0;
+#myInput {
+  margin-left: 150px ;
   border: none;
   border-radius: 0;
-  width: 75%;
+  width: 45%;
   padding: 10px;
   float: left;
   font-size: 16px;
@@ -98,7 +127,7 @@ input {
 /* Style the "Add" button */
 .addBtn {
   padding: 10px;
-  width: 25%;
+  width: 5%;
   background: #d9d9d9;
   color: #555;
   float: left;
@@ -110,5 +139,5 @@ input {
 }
 
 .addBtn:hover {
-  background-color: #bbb;
+  background-color: #FF9494;
 }
