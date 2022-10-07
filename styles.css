@@ -3,6 +3,13 @@
   box-sizing: border-box;
 }
 
+:root{
+  --primary-color:#ffffff;
+}
+
+.dark-theme{
+  --primary-color: #000106;
+}
 /* Remove margins and padding from the list */
 ul {
   margin: 0;
@@ -24,7 +31,9 @@ ul li {
   -ms-user-select: none;
   user-select: none;
 }
-
+body{
+  background-color: var(--primary-color);
+}
 /* Set all odd list items to a different color (zebra-stripes) */
 ul li:nth-child(odd) {
   background: #ea06a6;
@@ -110,5 +119,14 @@ input {
 }
 
 .addBtn:hover {
-  background-color: #bbb;
+  background-color: var(--primary-color);
+}
+i{
+  cursor: pointer;
+  color: rgb(57, 54, 54);
+}
+.fa-moon{
+  position: absolute;
+  top:30px;
+  right: 400px;
 }

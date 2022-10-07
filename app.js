@@ -1,6 +1,8 @@
 // Create a "close" button and append it to each list item
 var myNodelist = document.getElementsByTagName("LI");
 var i;
+var icon = document.querySelector('.fa-moon');
+var sun = document.querySelector('.fa-sun');
 for (i = 0; i < myNodelist.length; i++) {
   var span = document.createElement("SPAN");
   var txt = document.createTextNode("\u00D7");
@@ -53,3 +55,6 @@ function newElement() {
     }
   }
 }
+icon.addEventListener('click',()=>{
+  document.body.classList.toggle('dark-theme');
+})
