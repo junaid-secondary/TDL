@@ -8,7 +8,17 @@
 
 body {
   background-color: #1c1c5d;
+
 }
+#divunder{
+  padding-top: 10px;
+  padding: 50px;
+  margin: 0 auto;
+  width: 50%;
+  border-radius: 0px 0px 30px 30px;
+  background-color: #FFE3E1;
+}
+
 
 /* Remove margins and padding from the list */
 ul {
@@ -79,7 +89,7 @@ ul li.checked::before {
 }
 
 .close:hover {
-  background-color: #f44336;
+  background-color: #FF9494;
   color: white;
 }
 
@@ -90,6 +100,7 @@ ul li.checked::before {
   align-items: center;
   background-color: #0b0b0b;
   padding: 90px 40px;
+
   color: white;
   text-align: center;
   border-radius: 5px;
@@ -108,11 +119,11 @@ ul li.checked::before {
 }
 
 /* Style the input */
-input {
-  margin: 0;
+#myInput {
+  margin-left: 150px ;
   border: none;
   border-radius: 0;
-  width: 75%;
+  width: 45%;
   padding: 10px;
   float: left;
   font-size: 16px;
@@ -121,7 +132,7 @@ input {
 /* Style the "Add" button */
 .addBtn {
   padding: 10px;
-  width: 25%;
+  width: 5%;
   background: #d9d9d9;
   color: #555;
   float: left;
@@ -142,6 +153,7 @@ input {
   display: flex;
   justify-content: center;
   align-items: center;
+
 
 }
 
