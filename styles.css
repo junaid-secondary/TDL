@@ -36,6 +36,7 @@ ul li {
   position: relative;
   padding: 12px 8px 12px 40px;
   background: rgb(39, 31, 120);
+
   font-size: 18px;
   transition: 0.2s;
   color: #d9d9d9;
@@ -51,6 +52,7 @@ ul li {
 ul li:nth-child(odd) {
   background: #202584;
   color: #d9d9d9;
+
 }
 
 /* Darker background-color on hover */
