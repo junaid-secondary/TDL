@@ -94,21 +94,6 @@ ul li.checked::before {
   background-color: #FF9494;
   color: white;
 }
-
-/* Style the header */
-.header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #0b0b0b;
-  padding: 90px 40px;
-
-  color: white;
-  text-align: center;
-  border-radius: 5px;
-}
-
-
 .header span input {
   float: left;
 }
